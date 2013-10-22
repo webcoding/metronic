@@ -2,34 +2,34 @@
 Import fonts
 ***/
 .header {
-	display: none;
+    display: none;
 }
 
 .page-sidebar {
-	display: none;
+    display: none;
 }
 
 .color-panel {
-	display: none;
+    display: none;
 }
 
 .hidden-print {
-	display: none;
+    display: none;
 }
 
 .footer {
-	display: none;
+    display: none;
 }
 
 .no-page-break {
-	page-break-after: avoid;
+    page-break-after: avoid;
 }
 
 .page-container {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .page-content {
-	min-height: auto !important;
+    min-height: auto !important;
 }

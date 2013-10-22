@@ -142,7 +142,7 @@ var FormWizard = function () {
                     } else { // display success icon for other inputs
                         label
                             .addClass('valid ok') // mark the current input as valid and display OK icon
-                        .closest('.control-group').removeClass('error').addClass('success'); // set success class to the control group
+                            .closest('.control-group').removeClass('error').addClass('success'); // set success class to the control group
                     }
                 },
 
@@ -154,9 +154,9 @@ var FormWizard = function () {
 
             });
 
-            var displayConfirm = function() {
-                $('.display-value', form).each(function(){
-                    var input = $('[name="'+$(this).attr("data-display")+'"]', form);
+            var displayConfirm = function () {
+                $('.display-value', form).each(function () {
+                    var input = $('[name="' + $(this).attr("data-display") + '"]', form);
                     if (input.is(":text") || input.is("textarea")) {
                         $(this).html(input.val());
                     } else if (input.is("select")) {
@@ -167,7 +167,7 @@ var FormWizard = function () {
                         $(this).html($('[name="card_expiry_mm"]', form).val() + '/' + $('[name="card_expiry_yyyy"]', form).val());
                     } else if ($(this).attr("data-display") == 'payment') {
                         var payment = [];
-                        $('[name="payment[]"]').each(function(){
+                        $('[name="payment[]"]').each(function () {
                             payment.push($(this).attr('data-title'));
                         });
                         $(this).html(payment.join("<br>"));

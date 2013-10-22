@@ -135,21 +135,21 @@ var UIGeneral = function () {
         });
     }
 
-    var handleDynamicPagination = function() {
+    var handleDynamicPagination = function () {
         $('#dynamic_pager_demo1').bootpag({
             total: 6,
             page: 1,
-        }).on("page", function(event, num){
-            $("#dynamic_pager_content1").html("Page " + num + " content here"); // or some ajax content loading...
-        });
+        }).on("page", function (event, num) {
+                $("#dynamic_pager_content1").html("Page " + num + " content here"); // or some ajax content loading...
+            });
 
         $('#dynamic_pager_demo2').bootpag({
             total: 24,
             page: 1,
-            maxVisible: 6 
-        }).on('page', function(event, num){
-            $("#dynamic_pager_content2").html("Page " + num + " content here"); // or some ajax content loading...
-        });
+            maxVisible: 6
+        }).on('page', function (event, num) {
+                $("#dynamic_pager_content2").html("Page " + num + " content here"); // or some ajax content loading...
+            });
     }
 
     return {

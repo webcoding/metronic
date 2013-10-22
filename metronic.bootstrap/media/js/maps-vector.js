@@ -50,7 +50,7 @@ var MapsVector = function () {
             setMap("germany");
 
             // redraw maps on window or content resized 
-            App.addResponsiveHandler(function(){
+            App.addResponsiveHandler(function () {
                 setMap("world");
                 setMap("usa");
                 setMap("europe");

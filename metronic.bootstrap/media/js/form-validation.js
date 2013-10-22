@@ -71,7 +71,7 @@ var FormValidation = function () {
                 success: function (label) {
                     label
                         .addClass('valid').addClass('help-inline ok') // mark the current input as valid and display OK icon
-                    .closest('.control-group').removeClass('error').addClass('success'); // set success class to the control group
+                        .closest('.control-group').removeClass('error').addClass('success'); // set success class to the control group
                 },
 
                 submitHandler: function (form) {
@@ -173,7 +173,7 @@ var FormValidation = function () {
                     } else { // display success icon for other inputs
                         label
                             .addClass('valid').addClass('help-inline ok') // mark the current input as valid and display OK icon
-                        .closest('.control-group').removeClass('error').addClass('success'); // set success class to the control group
+                            .closest('.control-group').removeClass('error').addClass('success'); // set success class to the control group
                     }
                 },
 
@@ -189,7 +189,7 @@ var FormValidation = function () {
                 form2.validate().element($(this)); //revalidate the chosen dropdown value and show error or success message for the input
             });
 
-             //apply validation on select2 dropdown value change, this only needed for chosen dropdown integration.
+            //apply validation on select2 dropdown value change, this only needed for chosen dropdown integration.
             $('.select2', form2).change(function () {
                 form2.validate().element($(this)); //revalidate the chosen dropdown value and show error or success message for the input
             });

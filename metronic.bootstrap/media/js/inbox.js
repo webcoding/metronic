@@ -78,11 +78,11 @@ var Inbox = function () {
                 url: 'assets/plugins/jquery-file-upload/server/php/',
                 type: 'HEAD'
             }).fail(function () {
-                $('<span class="alert alert-error"/>')
-                    .text('Upload server currently unavailable - ' +
-                    new Date())
-                    .appendTo('#fileupload');
-            });
+                    $('<span class="alert alert-error"/>')
+                        .text('Upload server currently unavailable - ' +
+                            new Date())
+                        .appendTo('#fileupload');
+                });
         }
     }
 

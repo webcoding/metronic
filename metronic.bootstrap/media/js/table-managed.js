@@ -4,7 +4,7 @@ var TableManaged = function () {
 
         //main function to initiate the module
         init: function () {
-            
+
             if (!jQuery().dataTable) {
                 return;
             }
@@ -12,12 +12,12 @@ var TableManaged = function () {
             // begin first table
             $('#sample_1').dataTable({
                 "aoColumns": [
-                  { "bSortable": false },
-                  null,
-                  { "bSortable": false },
-                  null,
-                  { "bSortable": false },
-                  { "bSortable": false }
+                    { "bSortable": false },
+                    null,
+                    { "bSortable": false },
+                    null,
+                    { "bSortable": false },
+                    { "bSortable": false }
                 ],
                 "aLengthMenu": [
                     [5, 15, 20, -1],
@@ -34,7 +34,8 @@ var TableManaged = function () {
                         "sNext": "Next"
                     }
                 },
-                "aoColumnDefs": [{
+                "aoColumnDefs": [
+                    {
                         'bSortable': false,
                         'aTargets': [0]
                     }
@@ -75,7 +76,8 @@ var TableManaged = function () {
                         "sNext": "Next"
                     }
                 },
-                "aoColumnDefs": [{
+                "aoColumnDefs": [
+                    {
                         'bSortable': false,
                         'aTargets': [0]
                     }
@@ -116,7 +118,8 @@ var TableManaged = function () {
                         "sNext": "Next"
                     }
                 },
-                "aoColumnDefs": [{
+                "aoColumnDefs": [
+                    {
                         'bSortable': false,
                         'aTargets': [0]
                     }

@@ -43,7 +43,8 @@ var UITree = function () {
 
             //This is a quick example of capturing the select event on tree branches, not leaves
             $("#tree_1").on("nodeselect.tree.data-api", "[role=branch]", function (e) {
-                var output = "Node nodeselect event fired:\n"; + "Node Type: branch\n" + "Value: " + ((e.node.value) ? e.node.value : e.node.el.text()) + "\n" + "Parentage: " + e.node.parentage.join("/") + "\n"
+                var output = "Node nodeselect event fired:\n";
+                +"Node Type: branch\n" + "Value: " + ((e.node.value) ? e.node.value : e.node.el.text()) + "\n" + "Parentage: " + e.node.parentage.join("/") + "\n"
 
                 alert(output);
             });
