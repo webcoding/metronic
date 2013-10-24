@@ -39,18 +39,18 @@ seUIadmin
 
 
 ### 7.滚动条 插件
-*http://rocha.la/jQuery-slimScroll/
+    * http://rocha.la/jQuery-slimScroll/
 &lt;script src="media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
 
 ### 8.进行 AJAX 操作时遮罩浏览器
-*http://malsup.com/jquery/block/
+    * http://malsup.com/jquery/block/
 
 &lt;script src="media/js/jquery.blockui.min.js" type="text/javascript"></script>
 
 &lt;script src="media/js/jquery.cookie.min.js" type="text/javascript"></script>
 
 ### 9.美化 form 表单元素  
-*http://uniformjs.com/
+    * http://uniformjs.com/
 <script src="media/js/jquery.uniform.min.js" type="text/javascript"></script>
 
 ### 10. 脉动效果，引起用户注意 jquerypulsate
@@ -59,7 +59,7 @@ seUIadmin
 &lt; script src="media/js/jquery.pulsate.min.js" type="text/javascript"></script>
 
 ### 11.日期操作类js
-    *http://www.datejs.com/
+    * http://www.datejs.com/
 &lt;script src="media/js/date.js" type="text/javascript"></script>
 
 ###  12.日期范围选择js
