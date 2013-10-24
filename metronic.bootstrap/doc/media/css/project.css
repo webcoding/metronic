@@ -1,0 +1,17 @@
+/**
+ * 类名称: 
+ * 类描述： 
+ * User: lixuelong
+ * Date: 13-10-24
+ * Time: 下午3:13
+ * 
+ */
+body {
+    background-color: #e3e4e4 !important;
+}
+.header .navbar-inner {
+    color: #000000;
+    filter: none !important;
+    background-image: none !important;
+    background-color: #b9e0e0 !important;
+}

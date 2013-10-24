@@ -14,7 +14,7 @@ var Index = function () {
                 });
             });
         },
-
+           //初始化地图
         initJQVMAP: function () {
 
             var showMap = function (name) {
@@ -92,7 +92,7 @@ var Index = function () {
             $('#region_statistics_loading').hide();
             $('#region_statistics_content').show();
         },
-
+        //初始化日历
         initCalendar: function () {
             if (!jQuery().fullCalendar) {
                 return;
@@ -187,7 +187,7 @@ var Index = function () {
                 ]
             });
         },
-
+          //初始化图表
         initCharts: function () {
             if (!jQuery.plot) {
                 return;
@@ -660,7 +660,7 @@ var Index = function () {
                 }
             });
         },
-
+          //初始化数据范围选择
         initDashboardDaterange: function () {
 
             $('#dashboard-report-range').daterangepicker({

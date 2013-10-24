@@ -30,7 +30,7 @@ var App = function () {
         if ($('body').css('direction') === 'rtl') {
             isRTL = true;
         }
-
+        //UA检测
         isIE8 = !!navigator.userAgent.match(/MSIE 8.0/);
         isIE9 = !!navigator.userAgent.match(/MSIE 9.0/);
         isIE10 = !!navigator.userAgent.match(/MSIE 10/);
@@ -44,8 +44,11 @@ var App = function () {
         // loops all page elements with "responsive" class and applies classes for tablet mode
         // For metornic  1280px or less set as tablet mode to display the content properly
         if ($(window).width() <= 1280 || $('body').hasClass('page-boxed')) {
+            //需要 responsive 元素 检测使用平板模式还是桌面模式
             $(".responsive").each(function () {
+                //平板
                 var forTablet = $(this).attr('data-tablet');
+                //桌面
                 var forDesktop = $(this).attr('data-desktop');
                 if (forTablet) {
                     $(this).removeClass(forDesktop);
@@ -67,14 +70,14 @@ var App = function () {
             });
         }
     }
-
+    // 当window的宽度小于900的时候
     var handleSidebarState = function () {
         // remove sidebar toggler if window width smaller than 900(for table and phone mode)
         if ($(window).width() < 980) {
             $('body').removeClass("page-sidebar-closed");
         }
     }
-
+    //
     var runResponsiveHandlers = function () {
         // reinitialize other subscribed elements
         for (var i in responsiveHandlers) {
@@ -82,7 +85,7 @@ var App = function () {
             each.call();
         }
     }
-
+    //处理相应式布局
     var handleResponsive = function () {
         handleTooltips();
         handleSidebarState();
@@ -130,7 +133,7 @@ var App = function () {
 
     //* BEGIN:CORE HANDLERS *//
     // this function handles responsive layout on screen size resize or mobile device rotate.
-
+    //计算工具栏和内容的高度
     var handleSidebarAndContentHeight = function () {
         var content = $('.page-content');
         var sidebar = $('.page-sidebar');
@@ -153,7 +156,7 @@ var App = function () {
             }
         }
     }
-
+    //处理左侧工具栏的 点击事件
     var handleSidebarMenu = function () {
         jQuery('.page-sidebar').on('click', 'li > a', function (e) {
             if ($(this).next().hasClass('sub-menu') == false) {
@@ -168,7 +171,7 @@ var App = function () {
             parent.children('li.open').children('a').children('.arrow').removeClass('open');
             parent.children('li.open').children('.sub-menu').slideUp(200);
             parent.children('li.open').removeClass('open');
-
+            //下一级目录
             var sub = jQuery(this).next();
             if (sub.is(":visible")) {
                 jQuery('.arrow', jQuery(this)).removeClass("open");
@@ -187,7 +190,7 @@ var App = function () {
             e.preventDefault();
         });
 
-        // handle ajax links
+        // 处理ajax 加载页面
         jQuery('.page-sidebar').on('click', ' li > a.ajaxify', function (e) {
             e.preventDefault();
             App.scrollTop();
@@ -205,14 +208,15 @@ var App = function () {
                 $(this).children('a > span.arrow').addClass('open');
             });
             $(this).parents('li').addClass('active');
-
+            //添加ajax 遮罩
             App.blockUI(pageContent, false);
-
+            // 请求数据
             $.post(url, {}, function (res) {
+                //去掉ajax 遮罩
                 App.unblockUI(pageContent);
                 pageContentBody.html(res);
                 App.fixContentHeight(); // fix content height
-                App.initUniform(); // initialize uniform elements
+                App.initUniform(); // 初始化 uniform elements
             });
         });
     }
@@ -222,7 +226,6 @@ var App = function () {
         if ($('body').hasClass("page-footer-fixed")) {
             sidebarHeight = sidebarHeight - $('.footer').height();
         }
-
         return sidebarHeight;
     }
 
@@ -244,7 +247,6 @@ var App = function () {
 
         if ($(window).width() >= 980) {
             var sidebarHeight = _calculateFixedSidebarViewportHeight();
-
             menu.slimScroll({
                 size: '7px',
                 color: '#a1b2bd',
@@ -355,7 +357,7 @@ var App = function () {
             }
         });
     }
-
+        //水平方向目录回调方法
     var handleHorizontalMenu = function () {
         //handle hor menu search form toggler click
         $('.header').on('click', '.hor-menu .hor-menu-search-form-toggler', function (e) {
@@ -383,7 +385,7 @@ var App = function () {
             }
         });
     }
-
+       //滚动到顶部
     var handleGoTop = function () {
         /* set variables locally for increased performance */
         jQuery('.footer').on('click', '.go-top', function (e) {
@@ -456,7 +458,7 @@ var App = function () {
             }, 'slow');
         });
     }
-
+    //处理tab页
     var handleTabs = function () {
 
         // function to fix left/right tab contents
@@ -682,7 +684,7 @@ var App = function () {
 
         $('.layout-option, .header-option, .sidebar-option, .footer-option', panel).change(setLayout);
     }
-
+        //处理ie8，ie9 输入文本提示信息
     var handleFixInputPlaceholderForIE = function () {
         //fix html5 placeholder attribute for ie7 & ie8
         if (isIE8 || isIE9) { // ie7&ie8
