@@ -15,3 +15,18 @@ body {
     background-image: none !important;
     background-color: #b9e0e0 !important;
 }
+.page-header-fixed .page-container {
+    margin-top: 0px;
+}
+
+.code,.explame{
+  height: 100%;
+}
+.code{
+    background: #f0f8fd;
+    color:#3f3f3f ;
+}
+.explame{
+    background: #3f3f3f;
+    color: #f0f8fd;
+}

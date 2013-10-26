@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c246716-6f99-48c8-b8c5-1430ecaa6300" name="Default" comment="1.清理代码去掉统计代码&#10;2.修改首页菜单为中文">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metronic.bootstrap/doc/demo/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metronic.bootstrap/doc/demo/slidebar.html" />
+    <list default="true" id="0c246716-6f99-48c8-b8c5-1430ecaa6300" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metronic.bootstrap/index.html" afterPath="$PROJECT_DIR$/metronic.bootstrap/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metronic.bootstrap/doc/index.html" afterPath="$PROJECT_DIR$/metronic.bootstrap/doc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metronic.bootstrap/doc/media/js/index.js" afterPath="$PROJECT_DIR$/metronic.bootstrap/doc/media/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metronic.bootstrap/doc/media/css/project.css" afterPath="$PROJECT_DIR$/metronic.bootstrap/doc/media/css/project.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="seUIadmin.iws" />
@@ -29,7 +27,53 @@
     <favorites_list name="seUIadmin" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="264" column="39" selection-start="9959" selection-end="9966" vertical-scroll-proportion="-12.548388" vertical-offset="1627" max-vertical-offset="3216">
+              <folding>
+                <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/media/css/project.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="19" selection-start="493" selection-end="493" vertical-scroll-proportion="0.72139305" vertical-offset="285" max-vertical-offset="888">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/media/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="7" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metronic.bootstrap/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1436" column="0" selection-start="25526" selection-end="25526" vertical-scroll-proportion="3.903226" vertical-offset="3889" max-vertical-offset="67944">
+              <folding>
+                <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -43,6 +87,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lxlneo" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -62,12 +111,12 @@
         <option value="$PROJECT_DIR$/metronic.bootstrap/media/js/index.js" />
         <option value="$PROJECT_DIR$/metronic.bootstrap/doc/templet/mainjs.js" />
         <option value="$PROJECT_DIR$/metronic.bootstrap/doc/templet/mainjs.ejs" />
-        <option value="$PROJECT_DIR$/metronic.bootstrap/doc/media/css/project.css" />
         <option value="$PROJECT_DIR$/metronic.bootstrap/doc/slidebar.html" />
-        <option value="$PROJECT_DIR$/metronic.bootstrap/index.html" />
         <option value="$PROJECT_DIR$/metronic.bootstrap/doc/header.html" />
-        <option value="$PROJECT_DIR$/metronic.bootstrap/doc/index.html" />
         <option value="$PROJECT_DIR$/metronic.bootstrap/doc/media/js/index.js" />
+        <option value="$PROJECT_DIR$/metronic.bootstrap/index.html" />
+        <option value="$PROJECT_DIR$/metronic.bootstrap/doc/index.html" />
+        <option value="$PROJECT_DIR$/metronic.bootstrap/doc/media/css/project.css" />
       </list>
     </option>
   </component>
@@ -122,8 +171,8 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.HTML" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -134,14 +183,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -150,6 +191,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -180,28 +229,32 @@
       <created>1382690582961</created>
       <updated>1382690582961</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改sliderbar">
+      <created>1382693123344</created>
+      <updated>1382693123345</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1796875" sideWeight="0.6702015" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1796875" sideWeight="0.6702015" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -217,19 +270,13 @@
     <MESSAGE value="1.清理代码去掉统计代码&#10;2.修改首页菜单为中文" />
     <MESSAGE value="1.完成index.html 解读修改&#10;2.添加ejs&#10;3.添加示例页面doc/index.html" />
     <MESSAGE value="1.添加代码高亮js库jquery-syntax" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.添加代码高亮js库jquery-syntax" />
+    <MESSAGE value="修改sliderbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改sliderbar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="599" column="0" selection-start="13407" selection-end="13407" vertical-scroll-proportion="0.0" vertical-offset="14109" max-vertical-offset="98640">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/metronic.bootstrap/layout_ajax.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-29.328289" vertical-offset="0" max-vertical-offset="0" />
@@ -262,51 +309,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.40677965" vertical-offset="0" max-vertical-offset="1752">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.40677965" vertical-offset="0" max-vertical-offset="1752" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/media/js/jquery-syntax/jquery.syntax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1765" selection-end="1765" vertical-scroll-proportion="-0.8756219" vertical-offset="1008" max-vertical-offset="7200">
-          <folding />
-        </state>
+        <state line="43" column="0" selection-start="1765" selection-end="1765" vertical-scroll-proportion="-0.8756219" vertical-offset="1008" max-vertical-offset="7200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/demo/slidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.25174826" vertical-offset="0" max-vertical-offset="572">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.25174826" vertical-offset="0" max-vertical-offset="572" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/demo/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="999" selection-end="999" vertical-scroll-proportion="0.75524473" vertical-offset="0" max-vertical-offset="6192">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#2;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#3;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#4;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#5;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#6;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.548387" vertical-offset="0" max-vertical-offset="7320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4072" column="0" selection-start="72180" selection-end="72180" vertical-scroll-proportion="-5.83871" vertical-offset="97547" max-vertical-offset="98640">
-          <folding />
-        </state>
+        <state line="18" column="27" selection-start="999" selection-end="999" vertical-scroll-proportion="0.75524473" vertical-offset="0" max-vertical-offset="6192" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/metronic.bootstrap/media/js/index.js">
@@ -316,16 +334,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/media/js/index.js">
+    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/media/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="2" selection-start="791" selection-end="791" vertical-scroll-proportion="0.76119405" vertical-offset="189" max-vertical-offset="1872">
+        <state line="815" column="8" selection-start="29715" selection-end="29715" vertical-scroll-proportion="0.3322034" vertical-offset="19364" max-vertical-offset="21528">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/media/js/app.js">
+    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/media/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="815" column="8" selection-start="29715" selection-end="29715" vertical-scroll-proportion="0.3322034" vertical-offset="19364" max-vertical-offset="21528">
+        <state line="6" column="7" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1436" column="0" selection-start="25526" selection-end="25526" vertical-scroll-proportion="3.903226" vertical-offset="3889" max-vertical-offset="67944">
+          <folding>
+            <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="264" column="39" selection-start="9959" selection-end="9966" vertical-scroll-proportion="-12.548388" vertical-offset="1627" max-vertical-offset="3216">
+          <folding>
+            <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metronic.bootstrap/doc/media/css/project.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="19" selection-start="493" selection-end="493" vertical-scroll-proportion="0.72139305" vertical-offset="285" max-vertical-offset="888">
           <folding />
         </state>
       </provider>
