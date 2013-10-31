@@ -6,8 +6,8 @@
 var DOCApp = {};
 DOCApp.init = function(){
     handleSidebarMenu();
+    $.SyntaxHighlighter.init();
 }
-
 
 
 var handleSidebarMenu = function () {

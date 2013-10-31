@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no,maximum-scale=1.0" />
+ <style type="text/css">
+     body{
+         background:rgb(238,243,250) ;
+     }
+   .date{
+        height: 14px;
+        font-weight:bolder;
+        text-indent: 5px;
+   }
+   .title{
+       height: 50px;
+       font-size: 35px;
+       color: rgb(32,32,32);
+       line-height: 90px;
+       vertical-align: bottom;
+       font-weight:bolder;
+       text-indent: 5px;
+   }
+   .pic{
+       width: -webkit-calc(100% - 28px);
+       margin-left: 14px;
+       margin-right: 14px;
+       height: auto;
+       border: 5px solid #FDFDFD;
+       -webkit-box-shadow: 0 0 0 1px #DFD5D5;
+       margin-top: 25px;
+   }
+   .left-border{
+       border-left-width: 9px;
+       border-left-style: solid;
+       border-left-color: rgb(234,61,45);
+   }
+   .text{
+       margin-top:25px;
+       color: rgb(134,134,134);
+       font-size: 22px;
+       line-height: 44px;
+       text-indent: 44px;
+       text-align: left;
+       vertical-align: bottom;
+   }
+ </style>
+</head>
+<body>
+
+    <div class="date left-border">2013-12-09</div>
+    <div class="title left-border">多喜爱家纺4折</div>
+    <img src="http://imgs.soufun.com/news/2008_05/28/home/1211969975752_000.jpg" class="pic">
+    <div class="text">
+        LinkedHashMap 是HashMap的一个子类，保存了记录的插入顺序，在用Iterator遍历LinkedHashMap时，先得到的记录肯定是先插入的.也可以在构造时用带参数，按照应用次数排序。在遍历的时候会比HashMap慢，不过有种情况例外，当HashMap容量很大，实际数据较少时，遍历起来可能会比 LinkedHashMap慢，因为LinkedHashMap的遍历速度只和实际数据有关，和容量无关，而HashMap的遍历速度和他的容量有关。
+
+        TreeMap实现SortMap接口，能够把它保存的记录根据键排序,默认是按键值的升序排序，也可以指定排序的比较器，当用Iterator 遍历TreeMap时，得到的记录是排过序的。
+
+        一般情况下，我们用的最多的是HashMap,在Map 中插入、删除和定位元素，HashMap 是最好的选择。但如果您要按自然顺序或自定义顺序遍历键，那么TreeMap会更好。如果需要输出的顺序和输入的相同,那么用LinkedHashMap 可以实现,它还可以按读取顺序来排列.
+
+        HashMap是一个最常用的Map，它根据键的hashCode值存储数据，根据键可以直接获取它的值，具有很快的访问速度。HashMap最多只允许一条记录的键为NULL，允许多条记录的值为NULL。
+
+        HashMap不支持线程同步，即任一时刻可以有多个线程同时写HashMap，可能会导致数据的不一致性。如果需要同步，可以用Collections的synchronizedMap方法使HashMap具有同步的能力。
+
+        Hashtable与HashMap类似，不同的是：它不允许记录的键或者值为空；它支持线程的同步，即任一时刻只有一个线程能写Hashtable，因此也导致了Hashtable在写入时会比较慢。
+
+        LinkedHashMap保存了记录的插入顺序，在用Iterator遍历LinkedHashMap时，先得到的记录肯定是先插入的。
+
+        在遍历的时候会比HashMap慢TreeMap能够把它保存的记录根据键排序，默认是按升序排序，也可以指定排序的比较器。当用Iterator遍历TreeMap时，得到的记录是排过序的。
+    </div>
+
+</body>
+</html>
