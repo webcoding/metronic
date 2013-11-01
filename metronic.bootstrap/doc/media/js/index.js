@@ -5,10 +5,10 @@
 
 var DOCApp = {};
 DOCApp.init = function(){
+    //代码美化
+    prettyPrint();
     handleSidebarMenu();
-    $.SyntaxHighlighter.init();
 }
-
 
 var handleSidebarMenu = function () {
     jQuery('.page-sidebar').on('click', 'li > a', function (e) {
@@ -28,13 +28,11 @@ var handleSidebarMenu = function () {
             jQuery('.arrow', jQuery(this)).removeClass("open");
             jQuery(this).parent().removeClass("open");
             sub.slideUp(200, function () {
-
             });
         } else {
             jQuery('.arrow', jQuery(this)).addClass("open");
             jQuery(this).parent().addClass("open");
             sub.slideDown(200, function () {
-
             });
         }
         e.preventDefault();
@@ -43,8 +41,6 @@ var handleSidebarMenu = function () {
     // 处理ajax 加载页面
     jQuery('.page-sidebar').on('click', ' li > a.ajaxify', function (e) {
         e.preventDefault();
-        App.scrollTop();
-
         var url = $(this).attr("href");
         var menuContainer = jQuery('.page-sidebar ul');
         var pageContent = $('.page-content');
@@ -57,16 +53,17 @@ var handleSidebarMenu = function () {
             $(this).addClass('active');
             $(this).children('a > span.arrow').addClass('open');
         });
+
         $(this).parents('li').addClass('active');
         //添加ajax 遮罩
-        App.blockUI(pageContent, false);
+       // App.blockUI(pageContent, false);
         // 请求数据
         $.post(url, {}, function (res) {
             //去掉ajax 遮罩
-            App.unblockUI(pageContent);
+            //App.unblockUI(pageContent);
             pageContentBody.html(res);
            // App.fixContentHeight(); // fix content height
            // App.initUniform(); // 初始化 uniform elements
-        });
+        },"html");
     });
 }

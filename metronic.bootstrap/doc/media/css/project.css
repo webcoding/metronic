@@ -19,14 +19,24 @@ body {
     margin-top: 0px;
 }
 
-.code,.explame{
+.codebox,.explamebox{
   height: 100%;
 }
-.code{
+.codebox{
     background: #f0f8fd;
     color:#3f3f3f ;
 }
-.explame{
+.explamebox{
     background: #3f3f3f;
     color: #f0f8fd;
+}
+.codetitle{
+    display: block;
+    height: 30px;
+    width: auto;
+    text-align: left;
+    text-indent: 30px;
+    font-size:20px;
+    font-weight: bolder;
+    line-height: 30px;
 }
